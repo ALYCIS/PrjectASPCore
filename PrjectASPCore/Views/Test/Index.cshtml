@@ -1,0 +1,206 @@
+﻿@model PrjectASPCore.ViewModels.BookListViewModel
+@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "_LayoutTest";
+}
+
+@*container text-center*@
+
+<header>
+    <nav class="bg-light">
+      <div class="container">
+        <div class="bg-secondary py-4"></div>
+      </div>
+    </nav>
+ </header>
+
+<main>
+    <section class="partie1 my-5">
+        <!--Le my veut dire la marge pour haut et bas-->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Je suis Aly Développeur et mathématicien</h1>
+                    <h2>Bienvenue dans mon univers créatif</h2>
+                    <button>Mon expertise web</button>
+                </div>
+                <div class="col">
+                    <img src="~/img/identite.jpg" alt="Image de Aly" class="w-100" />
+                    <!--La classe w-100 c'est pour dire de prendre la taille 100 de son element -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partie2 bg-light">
+        <div class="container">
+            <h2>Mon expertise</h2>
+            <h3>Développement web et design</h3>
+            <div class="row">
+                <div class="col-8 bg-secondary">
+
+                </div>
+                <div class="col-4">
+                    <img src="~/img/code.jpg" class="w-100" />
+                </div>
+            </div>
+            <div class="my-5 row">
+                <div class="col-4">
+                    <img class="w-100" src="~/img/design.jpg" />
+                </div>
+                <div class="bg-secondary col-8">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light">
+        <div class="container">
+            <h2>Mon portfolio</h2>
+            <p>Projets perso et pro</p>
+            <div class="row">
+                <div class="col-2  bg-secondary">
+                    <p>Colonne 1</p>
+                </div>
+                <div class="col-2  bg-secondary">
+                        <p>Colonne 2</p>
+                </div>
+                <div class="col-2  bg-secondary">
+                    <p>Colonne 3</p>
+                </div>
+                <div class="col-2  bg-secondary">
+                    <p>Colonne 4</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+@*<div class="container-fluid">
+    <div class="bg-light py-2">
+    </div>
+    <div class="container bg-secondary py-4">
+
+    </div>
+</div>*@
+
+<!--<div class="container p-5">-->
+    @*    <h1> Nous somme dans la page test !</h1>*@
+
+    <!--<div class="row">
+        <div class="col-6">
+            <h4>je suis Aly Cissé Développeur et mathématicien</h4>
+            <p>Bienvenue dans mon univers créatifs</p>
+            <button>
+                <a href="Mon expertise">
+                    Mon expertise
+                </a>
+            </button>
+        </div>-->
+@*
+        <div class="col-6">
+            <img src="~/img/identite.jpg" width="60%" />
+        </div>
+
+    </div>
+</div>
+*@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="container-fluid bg-light">
+    <div class="container p-4">
+        <p ID="expertise">Mon expertise</p>
+        <p> Développement web, optimisation de code et les mathématiques</p>
+        <div class="row">
+            <div class="col bg-secondary">
+
+            </div>-->
+            @*<div class="col-1 bg-light">
+
+        </div>*@
+            <!--<div class="col">
+                <img src="~/img/code.jpg" width="60%" />
+            </div>
+
+            <div class="col">
+                <img src="~/img/design.jpg" width="60%" />
+            </div>
+            <div class="col bg-secondary">
+            </div>
+        </div>
+    </div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*@{
+        int i = 1;
+    }
+    <div class="row">
+        @foreach (var b in Model.Books)
+        {
+            <div class="col bg-success py-4" >
+                <h3>@b.Name</h3>
+                <img src="@b.UrlImag" />
+                <p>@b.Description</p>
+                <p>@b.Price</p>
+            </div>
+        }
+    </div>*@
